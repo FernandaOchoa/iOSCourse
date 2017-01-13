@@ -28,15 +28,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
-    
-    @IBAction func okButtonClicked(_ sender: Any) {
+    //Add when see functions
+    func changeLabels () {
         labelWelcome .text = "I've changed"
         labelFirst .text = "I did it"
         
         labelWelcome .textColor = UIColor.orange
         labelFirst .textColor = UIColor.blue
-        
+    }
+    
+    
+    @IBAction func okButtonClicked(_ sender: Any) {
+        changeLabels()
     }
 
 }
