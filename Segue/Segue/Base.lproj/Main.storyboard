@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Segue" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crw-Ju-ElP">
+                                <rect key="frame" x="47" y="52" width="280" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dio-YS-zJB">
+                                <rect key="frame" x="118" y="210" width="138" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="138" id="Etg-vI-9sV"/>
+                                    <constraint firstAttribute="height" constant="50" id="la1-b2-LcR"/>
+                                </constraints>
+                                <state key="normal" title="Go to 2nd"/>
+                                <connections>
+                                    <action selector="goToSecond:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvp-vH-zbI"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N3O-OU-PeE">
+                                <rect key="frame" x="47" y="136" width="280" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EBi-kP-eLm"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N3O-OU-PeE" firstAttribute="centerX" secondItem="Dio-YS-zJB" secondAttribute="centerX" id="3KF-qT-Y6E"/>
+                            <constraint firstItem="crw-Ju-ElP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="31" id="FQ6-c2-hvp"/>
+                            <constraint firstItem="Dio-YS-zJB" firstAttribute="top" secondItem="N3O-OU-PeE" secondAttribute="bottom" constant="44" id="Gai-Ud-maM"/>
+                            <constraint firstItem="crw-Ju-ElP" firstAttribute="leading" secondItem="N3O-OU-PeE" secondAttribute="leading" id="SJu-bE-tw6"/>
+                            <constraint firstItem="crw-Ju-ElP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKc-pc-1QF"/>
+                            <constraint firstItem="crw-Ju-ElP" firstAttribute="trailing" secondItem="N3O-OU-PeE" secondAttribute="trailing" id="f0K-Pe-NKk"/>
+                            <constraint firstItem="crw-Ju-ElP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="fv3-5Q-XG9"/>
+                            <constraint firstItem="N3O-OU-PeE" firstAttribute="top" secondItem="crw-Ju-ElP" secondAttribute="bottom" constant="23" id="kw1-Yq-dca"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Dio-YS-zJB" secondAttribute="bottom" constant="407" id="zTb-47-I2J"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageText" destination="N3O-OU-PeE" id="k8T-a6-c3a"/>
+                        <segue destination="seT-mH-glE" kind="show" identifier="goToFirst" id="ISl-Vn-NCy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-370.39999999999998" y="110.19490254872565"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="S3z-qz-N8A">
+            <objects>
+                <viewController storyboardIdentifier="secondViewController" id="seT-mH-glE" customClass="secondViewController" customModule="Segue" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wVg-7u-d9E"/>
+                        <viewControllerLayoutGuide type="bottom" id="jJW-8a-LUN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SpZ-hc-ntP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Age is:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVg-Uk-txz">
+                                <rect key="frame" x="50" y="53" width="274" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="YGM-OZ-Vz4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJu-ci-Vvb">
+                                <rect key="frame" x="117" y="217" width="140" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="3XR-ke-xfp"/>
+                                    <constraint firstAttribute="height" constant="38" id="t80-Qt-sCu"/>
+                                </constraints>
+                                <state key="normal" title="Go to 1st"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="khq-0N-2Wy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eVg-Uk-txz" firstAttribute="centerX" secondItem="SpZ-hc-ntP" secondAttribute="centerX" id="AKs-4d-8Q0"/>
+                            <constraint firstItem="eVg-Uk-txz" firstAttribute="leading" secondItem="SpZ-hc-ntP" secondAttribute="leadingMargin" constant="34" id="Jgk-w5-l3y"/>
+                            <constraint firstItem="jJW-8a-LUN" firstAttribute="top" secondItem="WJu-ci-Vvb" secondAttribute="bottom" constant="412" id="SdH-UF-OgJ"/>
+                            <constraint firstItem="eVg-Uk-txz" firstAttribute="top" secondItem="wVg-7u-d9E" secondAttribute="bottom" constant="33" id="uTA-Sy-bxa"/>
+                            <constraint firstItem="eVg-Uk-txz" firstAttribute="centerX" secondItem="WJu-ci-Vvb" secondAttribute="centerX" id="w68-MY-ghh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageLabel" destination="eVg-Uk-txz" id="u4M-pI-7B4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hIf-hJ-Txl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="349.60000000000002" y="109.29535232383809"/>
+        </scene>
+    </scenes>
+</document>
