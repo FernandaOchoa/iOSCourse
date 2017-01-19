@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A201w" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PoroGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="5tn-f5-Fzi">
+                                <rect key="frame" x="44" y="235" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="GpS-P4-ART"/>
+                                    <constraint firstAttribute="height" constant="80" id="P6m-LP-xN9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="R2d-Js-PPi">
+                                <rect key="frame" x="149" y="235" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="a8I-5K-ue6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="tk4-7A-Cr7">
+                                <rect key="frame" x="251" y="235" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="MOy-Hg-VG5">
+                                <rect key="frame" x="44" y="340" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Ok7-hD-Bqe"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="gYj-uB-ZyR">
+                                <rect key="frame" x="149" y="340" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="DS6-TY-xa8">
+                                <rect key="frame" x="251" y="340" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="ev1-mg-Vgn">
+                                <rect key="frame" x="44" y="452" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="oer-h7-zFs">
+                                <rect key="frame" x="149" y="452" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poromostacho.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dcn-jg-yKc">
+                                <rect key="frame" x="251" y="452" width="80" height="80"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="porogame.png" translatesAutoresizingMaskIntoConstraints="NO" id="VxV-gb-uJA">
+                                <rect key="frame" x="0.0" y="34" width="375" height="156"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kqa-9q-gTh">
+                                <rect key="frame" x="130" y="147" width="114" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="iOd-XA-QKX"/>
+                                    <constraint firstAttribute="height" constant="52" id="mvA-QS-1OZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g10-Yt-3MY">
+                                <rect key="frame" x="142" y="198" width="95" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="kfM-dx-raO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg9-d7-dPp">
+                                <rect key="frame" x="96" y="563" width="183" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Dp2-2l-qbR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VxV-gb-uJA" secondAttribute="trailing" id="0ih-hv-56E"/>
+                            <constraint firstItem="oer-h7-zFs" firstAttribute="top" secondItem="Dcn-jg-yKc" secondAttribute="top" id="3Zn-gS-sgm"/>
+                            <constraint firstItem="R2d-Js-PPi" firstAttribute="top" secondItem="Kqa-9q-gTh" secondAttribute="bottom" constant="36" id="3t6-vd-Ha4"/>
+                            <constraint firstItem="R2d-Js-PPi" firstAttribute="leading" secondItem="5tn-f5-Fzi" secondAttribute="trailing" constant="25" id="7jr-rz-Cc8"/>
+                            <constraint firstItem="Kqa-9q-gTh" firstAttribute="centerX" secondItem="hg9-d7-dPp" secondAttribute="centerX" id="AT8-n5-4Fh"/>
+                            <constraint firstItem="R2d-Js-PPi" firstAttribute="trailing" secondItem="gYj-uB-ZyR" secondAttribute="trailing" id="DOO-dU-cgW"/>
+                            <constraint firstItem="VxV-gb-uJA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dxd-W6-fDs"/>
+                            <constraint firstItem="DS6-TY-xa8" firstAttribute="leading" secondItem="Dcn-jg-yKc" secondAttribute="leading" id="EGl-ae-35g"/>
+                            <constraint firstItem="gYj-uB-ZyR" firstAttribute="top" secondItem="DS6-TY-xa8" secondAttribute="top" id="Ei8-6f-E2P"/>
+                            <constraint firstItem="tk4-7A-Cr7" firstAttribute="leading" secondItem="R2d-Js-PPi" secondAttribute="trailing" constant="22" id="EkX-xb-fCK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tk4-7A-Cr7" secondAttribute="trailing" constant="28" id="FCh-f0-4XP"/>
+                            <constraint firstItem="5tn-f5-Fzi" firstAttribute="top" secondItem="VxV-gb-uJA" secondAttribute="bottom" constant="45" id="GXg-uJ-Ns6"/>
+                            <constraint firstItem="MOy-Hg-VG5" firstAttribute="leading" secondItem="ev1-mg-Vgn" secondAttribute="leading" id="I2C-gi-qli"/>
+                            <constraint firstItem="ev1-mg-Vgn" firstAttribute="bottom" secondItem="oer-h7-zFs" secondAttribute="bottom" id="K19-VK-SnS"/>
+                            <constraint firstItem="ev1-mg-Vgn" firstAttribute="top" secondItem="MOy-Hg-VG5" secondAttribute="bottom" constant="32" id="PdQ-5z-NJj"/>
+                            <constraint firstItem="g10-Yt-3MY" firstAttribute="centerX" secondItem="R2d-Js-PPi" secondAttribute="centerX" id="SkB-By-jNL"/>
+                            <constraint firstItem="ev1-mg-Vgn" firstAttribute="top" secondItem="oer-h7-zFs" secondAttribute="top" id="Twp-jd-xs9"/>
+                            <constraint firstItem="5tn-f5-Fzi" firstAttribute="trailing" secondItem="MOy-Hg-VG5" secondAttribute="trailing" id="UAw-F8-9g7"/>
+                            <constraint firstItem="Kqa-9q-gTh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="127" id="UcJ-OL-FZD"/>
+                            <constraint firstItem="MOy-Hg-VG5" firstAttribute="bottom" secondItem="gYj-uB-ZyR" secondAttribute="bottom" id="WKy-Wt-vdm"/>
+                            <constraint firstItem="VxV-gb-uJA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="Y1m-Xm-hfJ"/>
+                            <constraint firstItem="gYj-uB-ZyR" firstAttribute="leading" secondItem="oer-h7-zFs" secondAttribute="leading" id="ZvT-Jn-F7P"/>
+                            <constraint firstItem="tk4-7A-Cr7" firstAttribute="trailing" secondItem="DS6-TY-xa8" secondAttribute="trailing" id="aJg-ad-MWS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hg9-d7-dPp" secondAttribute="bottom" constant="60" id="d8A-Hr-6gL"/>
+                            <constraint firstItem="hg9-d7-dPp" firstAttribute="top" secondItem="ev1-mg-Vgn" secondAttribute="bottom" constant="31" id="dPI-2K-MbA"/>
+                            <constraint firstItem="MOy-Hg-VG5" firstAttribute="trailing" secondItem="ev1-mg-Vgn" secondAttribute="trailing" id="gOw-O4-dKE"/>
+                            <constraint firstItem="5tn-f5-Fzi" firstAttribute="leading" secondItem="MOy-Hg-VG5" secondAttribute="leading" id="gWn-jU-PAC"/>
+                            <constraint firstItem="gYj-uB-ZyR" firstAttribute="trailing" secondItem="oer-h7-zFs" secondAttribute="trailing" id="k0e-7i-aah"/>
+                            <constraint firstItem="5tn-f5-Fzi" firstAttribute="bottom" secondItem="R2d-Js-PPi" secondAttribute="bottom" id="lAh-vz-klT"/>
+                            <constraint firstItem="oer-h7-zFs" firstAttribute="bottom" secondItem="Dcn-jg-yKc" secondAttribute="bottom" id="lNu-rh-tYO"/>
+                            <constraint firstItem="hg9-d7-dPp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="80" id="mFQ-xD-ueJ"/>
+                            <constraint firstItem="5tn-f5-Fzi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="mbl-13-C3m"/>
+                            <constraint firstItem="R2d-Js-PPi" firstAttribute="leading" secondItem="gYj-uB-ZyR" secondAttribute="leading" id="pKf-6I-o9M"/>
+                            <constraint firstItem="gYj-uB-ZyR" firstAttribute="bottom" secondItem="DS6-TY-xa8" secondAttribute="bottom" id="ppn-cx-rEH"/>
+                            <constraint firstItem="5tn-f5-Fzi" firstAttribute="top" secondItem="R2d-Js-PPi" secondAttribute="top" id="qXn-Lg-N7l"/>
+                            <constraint firstItem="MOy-Hg-VG5" firstAttribute="top" secondItem="gYj-uB-ZyR" secondAttribute="top" id="qwS-Rt-qfz"/>
+                            <constraint firstItem="tk4-7A-Cr7" firstAttribute="leading" secondItem="DS6-TY-xa8" secondAttribute="leading" id="s7l-s2-91a"/>
+                            <constraint firstItem="DS6-TY-xa8" firstAttribute="trailing" secondItem="Dcn-jg-yKc" secondAttribute="trailing" id="sa4-Wg-2ES"/>
+                            <constraint firstItem="g10-Yt-3MY" firstAttribute="top" secondItem="VxV-gb-uJA" secondAttribute="bottom" constant="8" symbolic="YES" id="twd-vm-EAj"/>
+                            <constraint firstItem="R2d-Js-PPi" firstAttribute="bottom" secondItem="tk4-7A-Cr7" secondAttribute="bottom" id="wzp-Hp-KYK"/>
+                            <constraint firstItem="R2d-Js-PPi" firstAttribute="top" secondItem="tk4-7A-Cr7" secondAttribute="top" id="xCl-GF-oN9"/>
+                            <constraint firstItem="VxV-gb-uJA" firstAttribute="centerX" secondItem="Kqa-9q-gTh" secondAttribute="centerX" id="xyO-j6-eKZ"/>
+                            <constraint firstItem="MOy-Hg-VG5" firstAttribute="top" secondItem="5tn-f5-Fzi" secondAttribute="bottom" constant="25" id="yZ1-wd-O9s"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="hg9-d7-dPp" id="GvS-fr-4j0"/>
+                        <outlet property="pointLabel" destination="g10-Yt-3MY" id="o6E-2J-hiA"/>
+                        <outlet property="poro1" destination="5tn-f5-Fzi" id="LyJ-YL-ghh"/>
+                        <outlet property="poro2" destination="R2d-Js-PPi" id="HPQ-Ic-pwg"/>
+                        <outlet property="poro3" destination="tk4-7A-Cr7" id="QNt-Zv-TAL"/>
+                        <outlet property="poro4" destination="MOy-Hg-VG5" id="TRq-9D-R1c"/>
+                        <outlet property="poro5" destination="gYj-uB-ZyR" id="hwe-4u-LsJ"/>
+                        <outlet property="poro6" destination="DS6-TY-xa8" id="u01-HD-ygd"/>
+                        <outlet property="poro7" destination="ev1-mg-Vgn" id="NXB-K5-8U4"/>
+                        <outlet property="poro8" destination="oer-h7-zFs" id="LUf-kn-VTx"/>
+                        <outlet property="poro9" destination="Dcn-jg-yKc" id="vaw-L8-O7t"/>
+                        <outlet property="scoreLabel" destination="Kqa-9q-gTh" id="Uhn-MK-jcU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="129.98500749625188"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="porogame.png" width="1600" height="900"/>
+        <image name="poromostacho.png" width="1024" height="902"/>
+    </resources>
+</document>

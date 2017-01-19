@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C85E84C81E2FF97E003495FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E84C71E2FF97E003495FC /* AppDelegate.swift */; };
+		C85E84CA1E2FF97E003495FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E84C91E2FF97E003495FC /* ViewController.swift */; };
+		C85E84CD1E2FF97E003495FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E84CB1E2FF97E003495FC /* Main.storyboard */; };
+		C85E84CF1E2FF97E003495FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85E84CE1E2FF97E003495FC /* Assets.xcassets */; };
+		C85E84D21E2FF97E003495FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E84D01E2FF97E003495FC /* LaunchScreen.storyboard */; };
+		C85E84DB1E2FFAFA003495FC /* poromostacho.png in Resources */ = {isa = PBXBuildFile; fileRef = C85E84D91E2FFAFA003495FC /* poromostacho.png */; };
+		C85E84DC1E2FFAFA003495FC /* porogame.png in Resources */ = {isa = PBXBuildFile; fileRef = C85E84DA1E2FFAFA003495FC /* porogame.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C85E84C41E2FF97E003495FC /* PoroGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoroGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85E84C71E2FF97E003495FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C85E84C91E2FF97E003495FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C85E84CC1E2FF97E003495FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C85E84CE1E2FF97E003495FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C85E84D11E2FF97E003495FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C85E84D31E2FF97E003495FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85E84D91E2FFAFA003495FC /* poromostacho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poromostacho.png; sourceTree = "<group>"; };
+		C85E84DA1E2FFAFA003495FC /* porogame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = porogame.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C85E84C11E2FF97E003495FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C85E84BB1E2FF97E003495FC = {
+			isa = PBXGroup;
+			children = (
+				C85E84C61E2FF97E003495FC /* PoroGame */,
+				C85E84C51E2FF97E003495FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C85E84C51E2FF97E003495FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C85E84C41E2FF97E003495FC /* PoroGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C85E84C61E2FF97E003495FC /* PoroGame */ = {
+			isa = PBXGroup;
+			children = (
+				C85E84C71E2FF97E003495FC /* AppDelegate.swift */,
+				C85E84C91E2FF97E003495FC /* ViewController.swift */,
+				C85E84CB1E2FF97E003495FC /* Main.storyboard */,
+				C85E84D91E2FFAFA003495FC /* poromostacho.png */,
+				C85E84DA1E2FFAFA003495FC /* porogame.png */,
+				C85E84CE1E2FF97E003495FC /* Assets.xcassets */,
+				C85E84D01E2FF97E003495FC /* LaunchScreen.storyboard */,
+				C85E84D31E2FF97E003495FC /* Info.plist */,
+			);
+			path = PoroGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C85E84C31E2FF97E003495FC /* PoroGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85E84D61E2FF97E003495FC /* Build configuration list for PBXNativeTarget "PoroGame" */;
+			buildPhases = (
+				C85E84C01E2FF97E003495FC /* Sources */,
+				C85E84C11E2FF97E003495FC /* Frameworks */,
+				C85E84C21E2FF97E003495FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoroGame;
+			productName = PoroGame;
+			productReference = C85E84C41E2FF97E003495FC /* PoroGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C85E84BC1E2FF97E003495FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Fernanda Ochoa";
+				TargetAttributes = {
+					C85E84C31E2FF97E003495FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C85E84BF1E2FF97E003495FC /* Build configuration list for PBXProject "PoroGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C85E84BB1E2FF97E003495FC;
+			productRefGroup = C85E84C51E2FF97E003495FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C85E84C31E2FF97E003495FC /* PoroGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C85E84C21E2FF97E003495FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85E84DC1E2FFAFA003495FC /* porogame.png in Resources */,
+				C85E84D21E2FF97E003495FC /* LaunchScreen.storyboard in Resources */,
+				C85E84DB1E2FFAFA003495FC /* poromostacho.png in Resources */,
+				C85E84CF1E2FF97E003495FC /* Assets.xcassets in Resources */,
+				C85E84CD1E2FF97E003495FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C85E84C01E2FF97E003495FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C85E84CA1E2FF97E003495FC /* ViewController.swift in Sources */,
+				C85E84C81E2FF97E003495FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C85E84CB1E2FF97E003495FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85E84CC1E2FF97E003495FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C85E84D01E2FF97E003495FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85E84D11E2FF97E003495FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C85E84D41E2FF97E003495FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C85E84D51E2FF97E003495FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C85E84D71E2FF97E003495FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoroGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = auribox.PoroGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C85E84D81E2FF97E003495FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoroGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = auribox.PoroGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C85E84BF1E2FF97E003495FC /* Build configuration list for PBXProject "PoroGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85E84D41E2FF97E003495FC /* Debug */,
+				C85E84D51E2FF97E003495FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C85E84D61E2FF97E003495FC /* Build configuration list for PBXNativeTarget "PoroGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85E84D71E2FF97E003495FC /* Debug */,
+				C85E84D81E2FF97E003495FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C85E84BC1E2FF97E003495FC /* Project object */;
+}
